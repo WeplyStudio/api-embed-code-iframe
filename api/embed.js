@@ -24,6 +24,8 @@
             console.error("Element with id 'embed-box' not found.");
         }
     } else {
-        console.error("Invalid API key.");
+        console.error("Invalid API key. Silahkan baca dokumentasi terlebih dahulu untuk menggunakan embed ini! baca dokumentasi nya di https://weplystudio.github.io/api-embed-code-iframe");
+        console.error("Apabila anda menemukan masalah pada script ini silahkan hubungi kami segera di support@weply.my.id!");
+        console.error("Embed ini disediakan oleh Weply untuk mempermudah anda untuk menambahkan website kami secara resmi karena telah menggunakan API yang telah kami sediakan!");
     }
 })();
