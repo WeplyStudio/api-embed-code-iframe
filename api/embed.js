@@ -20,7 +20,9 @@
         const embedBox = document.getElementById('embed-box');
         if (embedBox) {
             embedBox.appendChild(iframe);
-            console.log("Good News! Anda telah berhasil menggunakan embed dari Weply Studio!");
+            console.info("Good News! Anda telah berhasil menggunakan embed dari Weply Studio!");
+            console.warn("Embed code ini sedang dalam tahap pengembangan, beberapa fitur mungkin belum tersedia untuk saat ini!");
+            console.warn("Penyalahgunaan Embed code ini dapat mengakibatkan website anda dihapus dari Peramban web apapun!");
         } else {
             console.error("Element with id 'embed-box' not found.");
         }
